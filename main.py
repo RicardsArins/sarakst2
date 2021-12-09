@@ -35,6 +35,21 @@ print(visi_skaitli)
 
 #3.uzd
 
+print("Uz kuru jautājumu vēlies atbildēt?")
+print("1 - pirmais jautājums;2 - otrais jautājums;3 - trešais jautājums")
+b = int(input(""))
+
+if b == 1:
+  print("1.jautājums")
+
+if b == 2:
+  print("2. jautājums")
+
+if b == 3:
+  print("3. jautājums")
+
+Q = ["cik ir 10-7?"]
+
 
 
 
