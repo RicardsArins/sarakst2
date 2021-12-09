@@ -37,6 +37,27 @@ def otrais_uzdevums():
  
 
 #3.uzd
+
+
+print("Uz kuru jautājumu vēlies atbildēt?")
+print("1 - pirmais jautājums;2 - otrais jautājums;3 - trešais jautājums")
+b = int(input(""))
+
+if b == 1:
+  print("1.jautājums")
+
+if b == 2:
+  print("2. jautājums")
+
+if b == 3:
+  print("3. jautājums")
+
+Q = ["cik ir 10-7?"]
+
+
+
+
+
 def tresais_uzdevums():
   print('hello')
 
@@ -46,3 +67,4 @@ if izvele == "2":
   otrais_uzdevums()
 if izvele == "3":
   tresais_uzdevums()
+
